@@ -16,7 +16,7 @@ Contributions are welcome! If you have any suggestions or improvements, feel fre
 Project Roadmap
 
 	•	Research existing username and password generation libraries or tools
-	•	Design user interface for inputting personal information
+	•	Design user interface for inputting personal information 
 	•	Implement basic functionality to generate usernames and passwords
 	•	Test the script with various inputs and ensure it produces unique and secure credentials
 	•	Document usage instructions and examples
