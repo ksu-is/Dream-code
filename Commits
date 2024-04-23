@@ -19,3 +19,10 @@ def generate_username(name, color, animal):
     color = input("Enter your favorite color: ")
     animal = input("Enter your favorite animal: ")
 # these will be the inputs for the project that generate the username and password.
+
+# Printing username and password
+    print("Generated username:", username)
+    print("Generated password:", password)
+This command will tell the user their user name and password as an output after all the inputs.
+
+
