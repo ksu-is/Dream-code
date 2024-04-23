@@ -69,3 +69,7 @@ Enter your favorite animal: Snake
 Generated username: jps8883
 Generated password: Jabari oneal_purple_snake 
 # the code ran how I wanted it to run the ouputs of the code where exactly what I wanted them to be 
+
+
+purpose = input("What are you using this password for? ")
+# i added this line of code in order for you to kind of be able to remember what username and password you used for what purpose
