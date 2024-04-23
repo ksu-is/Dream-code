@@ -1,0 +1,14 @@
+import random
+
+def generate_username(name, color, animal):
+    # Extracting first letter of each input
+    initials = name[0].lower() + color[0].lower() + animal[0].lower()
+    
+    # Generating a random number between 1000 and 9999
+    rand_num = random.randint(1000, 9999)
+    
+    # Combining initials and random number to create username
+    username = initials + str(rand_num)
+    
+    return username
+# I created this part of my code in order to make the user name and password random by using random inputs you made that were name, favorite color and animal and also using random numbers 
