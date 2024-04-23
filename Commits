@@ -1,2 +1,8 @@
 Commit Changes 
 
+import random
+
+def generate_username(name, color, animal):
+    # Extracting first letter of each input
+    initials = name[0].lower() + color[0].lower() + animal[0].lower()
+# I started with this in order to start the process or randomizing your username and password using information that you will give in your input. 
