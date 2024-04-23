@@ -62,4 +62,10 @@ def main():
 
 if __name__ == "__main__":
     main()
-
+# Inputs and outputs of tested code
+Enter your name: jabari Oneal
+Enter your favorite color: Purple
+Enter your favorite animal: Snake 
+Generated username: jps8883
+Generated password: Jabari oneal_purple_snake 
+# the code ran how I wanted it to run the ouputs of the code where exactly what I wanted them to be 
