@@ -12,3 +12,15 @@ def generate_username(name, color, animal):
     
     return username
 # I created this part of my code in order to make the user name and password random by using random inputs you made that were name, favorite color and animal and also using random numbers 
+
+def main():
+    # Taking inputs
+    name = input("Enter your name: ")
+    color = input("Enter your favorite color: ")
+    animal = input("Enter your favorite animal: ")
+    purpose = input("What are you using this password for? ")
+    
+    # Generating username and password
+    username = generate_username(name, color, animal)
+    password = generate_password(name, color, animal, purpose)
+# this part of the codes is for your inputs to generate a username and password. I made this part really easy to read so it can be added to or taken away from. These are the main questions that will be used to generate usernsmes and passwords.
