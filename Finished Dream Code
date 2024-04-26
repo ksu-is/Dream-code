@@ -1,0 +1,36 @@
+import random
+
+def generate_username(name, color, animal):
+    # Extracting first letter of each input
+    initials = name[0].lower() + color[0].lower() + animal[0].lower()
+    
+    # Generating a random number between 1000 and 9999
+    rand_num = random.randint(1000, 9999)
+    
+    # Combining initials and random number to create username
+    username = initials + str(rand_num)
+    
+    return username
+
+def generate_password(name, color, animal):
+    # Generating password by combining name, color, and animal
+    password = name.capitalize() + '_' + color.lower() + '_' + animal.lower()
+    
+    return password
+
+def main():
+    # Taking inputs
+    name = input("Enter your name: ")
+    color = input("Enter your favorite color: ")
+    animal = input("Enter your favorite animal: ")
+    
+    # Generating username and password
+    username = generate_username(name, color, animal)
+    password = generate_password(name, color, animal)
+    
+    # Printing username and password
+    print("Generated username:", username)
+    print("Generated password:", password)
+
+if __name__ == "__main__":
+    main()
